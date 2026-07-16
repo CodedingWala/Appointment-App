@@ -24,4 +24,5 @@ Clone or extract the repository, navigate into the project root directory, and r
 npm install
 
 # here is a link for downloading the apk file
-https://expo.dev/accounts/javedansari2/projects/Appointment_App/builds/f64e545a-ccdf-43a2-8e48-04f20a6418b0
+
+https://expo.dev/accounts/javedansari2/projects/Appointment_App/builds/40c0f2a8-e9d3-4d4a-9fa5-72980e798d60
