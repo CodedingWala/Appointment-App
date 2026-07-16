@@ -1,0 +1,115 @@
+{
+  "users": [
+    {
+      "email": "user@healthbridge.com",
+      "password": "Password123"
+    }
+  ],
+  "doctors": [
+    {
+      "id": "1",
+      "name": "Dr. Anjali Rao, MD",
+      "specialty": "Cardiology & Internal Medicine",
+      "rating": 4.9,
+      "distance": "1.2 km",
+      "networkStatus": "In-Network",
+      "nextSlot": "Available this Friday at 10:30 AM",
+      "experience": "12+ Yrs Exp.",
+      "about": "Board-certified internist specializing in holistic preventative care and chronic disease management. Committed to providing unhurried, patient-centered diagnostics.",
+      "insurance": ["BLUE CROSS", "AETNA GOLD", "UNITEDHEALTH", "CIGNA PPO"],
+      "slots": {
+        "dates": [
+          {"day": "MON", "date": "OCT 23"},
+          {"day": "TUE", "date": "OCT 24"}
+        ],
+        "times": ["09:00 AM", "10:30 AM", "02:00 PM", "03:30 PM"]
+      },
+      "phone": "+1 (555) 123-4567",
+      "address": "1221 Health Plaza, Suite 400, Medical District, New York, NY 10021"
+    },
+    {
+      "id": "2",
+      "name": "Dr. Marcus Thorne, DO",
+      "specialty": "Physical Therapy",
+      "rating": 4.8,
+      "distance": "2.4 km",
+      "networkStatus": "In-Network",
+      "nextSlot": "Available this Monday at 09:00 AM",
+      "experience": "8+ Yrs Exp.",
+      "about": "Dedicated physical therapist focused on sports rehabilitation and personalized pain management programs.",
+      "insurance": ["BLUE CROSS", "CIGNA PPO"],
+      "slots": {
+        "dates": [
+          {"day": "MON", "date": "OCT 23"},
+          {"day": "WED", "date": "OCT 25"}
+        ],
+        "times": ["09:00 AM", "11:00 AM", "01:00 PM"]
+      },
+      "phone": "+1 (555) 987-6543",
+      "address": "844 Spine Way, Suite 100, New York, NY 10012"
+    },
+    {
+      "id": "3",
+      "name": "Dr. Elena Petrova, MD",
+      "specialty": "Dermatology Specialist",
+      "rating": 5.0,
+      "distance": "0.8 km",
+      "networkStatus": "Out-of-Network",
+      "nextSlot": "Available this Friday at 02:30 PM",
+      "experience": "15+ Yrs Exp.",
+      "about": "Specializing in advanced medical, surgical, and aesthetic dermatology treatments with a gentle touch.",
+      "insurance": ["AETNA GOLD", "CIGNA PPO"],
+      "slots": {
+        "dates": [
+          {"day": "TUE", "date": "OCT 24"},
+          {"day": "FRI", "date": "OCT 27"}
+        ],
+        "times": ["02:30 PM", "04:00 PM"]
+      },
+      "phone": "+1 (555) 456-7890",
+      "address": "77 Skin Care Blvd, Suite 302, New York, NY 10022"
+    },
+    {
+      "id": "4",
+      "name": "Dr. James Wilson, MD",
+      "specialty": "Neurology Specialist",
+      "rating": 4.7,
+      "distance": "4.1 km",
+      "networkStatus": "In-Network",
+      "nextSlot": "Available this Friday at 11:15 AM",
+      "experience": "10+ Yrs Exp.",
+      "about": "Specializing in cognitive neurology, neuromuscular disorders, and advanced headache therapies with a focus on evidence-based treatment.",
+      "insurance": ["BLUE CROSS", "UNITEDHEALTH", "CIGNA PPO"],
+      "slots": {
+        "dates": [
+          {"day": "WED", "date": "OCT 25"},
+          {"day": "FRI", "date": "OCT 27"}
+        ],
+        "times": ["10:00 AM", "11:15 AM", "03:00 PM"]
+      },
+      "phone": "+1 (555) 234-5678",
+      "address": "102 Brain & Spine Center, Suite 10, New York, NY 10032"
+    },
+    {
+      "id": "5",
+      "name": "Dr. Sarah Chen, MD",
+      "specialty": "Pediatrician",
+      "rating": 4.9,
+      "distance": "3.5 km",
+      "networkStatus": "In-Network",
+      "nextSlot": "Available this Friday at 04:00 PM",
+      "experience": "9+ Yrs Exp.",
+      "about": "Passionate pediatrician dedicated to infant growth development, youth mental wellness, and preventative pediatric care.",
+      "insurance": ["BLUE CROSS", "AETNA GOLD", "UNITEDHEALTH"],
+      "slots": {
+        "dates": [
+          {"day": "MON", "date": "OCT 23"},
+          {"day": "THU", "date": "OCT 26"}
+        ],
+        "times": ["01:30 PM", "03:00 PM", "04:00 PM"]
+      },
+      "phone": "+1 (555) 876-5432",
+      "address": "520 Kids Health Way, Suite A, New York, NY 10018"
+    }
+  ]
+}
