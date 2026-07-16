@@ -1,56 +1,27 @@
-# Welcome to your Expo app 👋
+# HealthBridge - Doctor Appointment Booking Application
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+HealthBridge is a React Native mobile application built with Expo based on the provided Figma design case study[cite: 1]. The application features user authentication (Login & Sign-Up), a dynamic list of medical specialists with interactive filtering, detailed doctor profiles, and an appointment booking confirmation flow.
 
-## Get started
+## 📱 Features Implemented
+* **Authentication Portal (Login & Sign-Up):** Custom designed user onboarding flow with toggle states. Validates inputs against local JSON credentials for existing accounts and simulates user generation for new registrations.
+* **Home Screen Feed:** Dynamic specialist directory utilizing a performance-optimized `FlatList` with doctor information parsed from a local data source.
+* **Interactive Filtering:** Live runtime filtering capability matching specific conditions for "In-Network" status and "Nearest to Me" proximity boundaries (under 2.0 km).
+* **About Doctor Screen:** Full detailed profile views receiving dynamic route data injection, augmented with a custom mandatory "Book Appointment" call-to-action button.
+* **Appointment Confirmation Screen:** A summary layout view confirming scheduled details.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 🚀 Project Setup Steps
 
-2. Start the app
+Follow these steps to set up and run the application locally on your machine:
 
-   ```bash
-   npx expo start
-   ```
+### 1. Prerequisites
+Ensure you have [Node.js](https://nodejs.org/) installed on your computer and the **Expo Go** app installed on your physical Android test device.
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+### 2. Installation
+Clone or extract the repository, navigate into the project root directory, and run the following command to download the node modules:
 ```bash
-npm run reset-project
-```
+npm install
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-### Other setup steps
-
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+# here is a link for downloading the apk file
+https://expo.dev/accounts/javedansari2/projects/Appointment_App/builds/f64e545a-ccdf-43a2-8e48-04f20a6418b0
